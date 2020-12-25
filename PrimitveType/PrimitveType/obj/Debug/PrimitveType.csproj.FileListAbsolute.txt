@@ -1,0 +1,7 @@
+E:\Desktop\c#\PrimitveType\PrimitveType\bin\Debug\PrimitveType.exe.config
+E:\Desktop\c#\PrimitveType\PrimitveType\bin\Debug\PrimitveType.exe
+E:\Desktop\c#\PrimitveType\PrimitveType\bin\Debug\PrimitveType.pdb
+E:\Desktop\c#\PrimitveType\PrimitveType\obj\Debug\PrimitveType.csprojAssemblyReference.cache
+E:\Desktop\c#\PrimitveType\PrimitveType\obj\Debug\PrimitveType.csproj.CoreCompileInputs.cache
+E:\Desktop\c#\PrimitveType\PrimitveType\obj\Debug\PrimitveType.exe
+E:\Desktop\c#\PrimitveType\PrimitveType\obj\Debug\PrimitveType.pdb
