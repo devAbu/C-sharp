@@ -1,0 +1,6 @@
+E:\Desktop\c#\If-Else\If-Else\bin\Debug\If-Else.exe.config
+E:\Desktop\c#\If-Else\If-Else\bin\Debug\If-Else.exe
+E:\Desktop\c#\If-Else\If-Else\bin\Debug\If-Else.pdb
+E:\Desktop\c#\If-Else\If-Else\obj\Debug\If-Else.csproj.CoreCompileInputs.cache
+E:\Desktop\c#\If-Else\If-Else\obj\Debug\If-Else.exe
+E:\Desktop\c#\If-Else\If-Else\obj\Debug\If-Else.pdb

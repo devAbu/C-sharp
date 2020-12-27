@@ -1,0 +1,7 @@
+E:\Desktop\c#\Operators and Expressions\Operators and Expressions\bin\Debug\Operators and Expressions.exe.config
+E:\Desktop\c#\Operators and Expressions\Operators and Expressions\bin\Debug\Operators and Expressions.exe
+E:\Desktop\c#\Operators and Expressions\Operators and Expressions\bin\Debug\Operators and Expressions.pdb
+E:\Desktop\c#\Operators and Expressions\Operators and Expressions\obj\Debug\Operators and Expressions.csprojAssemblyReference.cache
+E:\Desktop\c#\Operators and Expressions\Operators and Expressions\obj\Debug\Operators and Expressions.csproj.CoreCompileInputs.cache
+E:\Desktop\c#\Operators and Expressions\Operators and Expressions\obj\Debug\Operators and Expressions.exe
+E:\Desktop\c#\Operators and Expressions\Operators and Expressions\obj\Debug\Operators and Expressions.pdb
