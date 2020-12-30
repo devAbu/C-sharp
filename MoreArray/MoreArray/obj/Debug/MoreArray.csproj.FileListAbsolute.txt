@@ -1,0 +1,7 @@
+E:\Desktop\c#\MoreArray\MoreArray\bin\Debug\MoreArray.exe.config
+E:\Desktop\c#\MoreArray\MoreArray\bin\Debug\MoreArray.exe
+E:\Desktop\c#\MoreArray\MoreArray\bin\Debug\MoreArray.pdb
+E:\Desktop\c#\MoreArray\MoreArray\obj\Debug\MoreArray.csprojAssemblyReference.cache
+E:\Desktop\c#\MoreArray\MoreArray\obj\Debug\MoreArray.csproj.CoreCompileInputs.cache
+E:\Desktop\c#\MoreArray\MoreArray\obj\Debug\MoreArray.exe
+E:\Desktop\c#\MoreArray\MoreArray\obj\Debug\MoreArray.pdb
