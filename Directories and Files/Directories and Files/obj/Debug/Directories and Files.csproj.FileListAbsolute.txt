@@ -1,0 +1,7 @@
+E:\Desktop\c#\Directories and Files\Directories and Files\bin\Debug\Directories and Files.exe.config
+E:\Desktop\c#\Directories and Files\Directories and Files\bin\Debug\Directories and Files.exe
+E:\Desktop\c#\Directories and Files\Directories and Files\bin\Debug\Directories and Files.pdb
+E:\Desktop\c#\Directories and Files\Directories and Files\obj\Debug\Directories and Files.csprojAssemblyReference.cache
+E:\Desktop\c#\Directories and Files\Directories and Files\obj\Debug\Directories and Files.csproj.CoreCompileInputs.cache
+E:\Desktop\c#\Directories and Files\Directories and Files\obj\Debug\Directories and Files.exe
+E:\Desktop\c#\Directories and Files\Directories and Files\obj\Debug\Directories and Files.pdb
