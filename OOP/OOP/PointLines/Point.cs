@@ -11,15 +11,18 @@ namespace PointLines // the name of the folder
 
     class Point
     {
-        public int X;
-        public int Y;
+        public int x;
+        public int y;
+        public int z;
 
         public Point() { }
 
         public Point(int x, int y)
         {
-            X = x;
-            Y = y;
+            // this gives you access to the memebers of your class and leys you distinguish between two variables or methods that have the same name
+            this.x = x;
+            this.y = y;
+            this.z = 5; // this keyword is optional here
         }
     }
 }

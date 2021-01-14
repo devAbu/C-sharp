@@ -29,15 +29,15 @@ class Program
 
         // Create object
         Point point = new Point(5,10); // new object of data type Point
-        Console.WriteLine(point.X);
-        Console.WriteLine(point.Y);
+        Console.WriteLine(point.x);
+        Console.WriteLine(point.y);
 
         Point pointTwo = new Point();
-        pointTwo.X = 5; // giving some value to the property
-        pointTwo.Y = 8;
+        pointTwo.x = 5; // giving some value to the property
+        pointTwo.y = 8;
 
-        Console.WriteLine(pointTwo.X);
-        Console.WriteLine(pointTwo.Y);
+        Console.WriteLine(pointTwo.x);
+        Console.WriteLine(pointTwo.y);
 
     }
 }
