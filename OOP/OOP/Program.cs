@@ -1,5 +1,5 @@
 ﻿using System;
-using PointLines; // the namespace
+using PointLines; // the name space
 
 class Program
 {
@@ -28,13 +28,16 @@ class Program
          */
 
         // Create object
-        Point point = new Point(); // new object of data type Point
+        Point point = new Point(5,10); // new object of data type Point
+        Console.WriteLine(point.X);
+        Console.WriteLine(point.Y);
 
-        point.x = 5; // giving some value to the property
-        point.y = 10;
+        Point pointTwo = new Point();
+        pointTwo.X = 5; // giving some value to the property
+        pointTwo.Y = 8;
 
-        Console.WriteLine(point.x);
-        Console.WriteLine(point.y);
+        Console.WriteLine(pointTwo.X);
+        Console.WriteLine(pointTwo.Y);
 
     }
 }
