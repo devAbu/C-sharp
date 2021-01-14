@@ -1,11 +1,5 @@
 ﻿using System;
-
-class Point
-{
-    public int x;
-    public int y;
-}
-
+using PointLines; // the namespace
 
 class Program
 {
