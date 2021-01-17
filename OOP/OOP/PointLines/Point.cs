@@ -49,21 +49,23 @@ namespace PointLines // the name of the folder
             {
                 return username;
             }
-            set
-            {
-                if(value.Length >= 4 && value.Length <= 10)
-                    username = value;
-                else
-                    Console.WriteLine("Invalid");
-            }
+            //READ-ONLY PROPERTY -- WE WILL SET THE USERNAME VIA THE CONSTRUCTOR
+            //set
+            //{
+            //    if(value.Length >= 4 && value.Length <= 10)
+            //        username = value;
+            //    else
+            //        Console.WriteLine("Invalid");
+            //}
         }
 
         public int Password
         {
-            get
-            {
-                return password;
-            }
+            // WRITE-ONLY PROPERTY
+            //get
+            //{
+            //    return password;
+            //}
             set
             {
                 if (value >= 4 && value <= 10)

@@ -41,8 +41,10 @@ class Program
 
         Point newPoint = new Point();
 
-        newPoint.Username = "abud";
+        //newPoint.Username = "abud"; // ERROT - READ-ONLY (GET)
         newPoint.Password = 5;
+
+        //Console.WriteLine(newPoint.Password); // ERROR - WRITE-ONLY (SET)
 
     }
 }
