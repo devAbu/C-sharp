@@ -52,5 +52,8 @@ class Program
         Console.WriteLine(Point.currentID);
 
         //newPoint.id = 100; // ERROR - READONLY
+
+        // ENUM
+        Console.WriteLine(newPoint.race);
     }
 }

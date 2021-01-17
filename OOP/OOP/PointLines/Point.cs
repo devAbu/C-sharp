@@ -18,8 +18,13 @@ namespace PointLines // the name of the folder
         // STATIC - does not need an instance - can be accessed without creating a new instance / object of the class
         public static int currentID;
 
-        public const int id = 12; // CONST - hardcoded value -- ID
-        //public readonly int id; //  READ-ONLY - value assigned at runtime through code logic
+        public const int ID = 12; // CONST - hardcoded value -- THE_CONST_NAME
+        public readonly int id; //  READ-ONLY - value assigned at runtime through code logic
+
+        // ENUMERATIONS - define a set of constants which can be used to milit some kind of options or variables (for example: chosee BLACK or WHITE)
+        // Race.cs
+        public Race race;
+
 
         //public int X
         //{
@@ -35,7 +40,10 @@ namespace PointLines // the name of the folder
 
         public int X { get; set; } // Getter and setter -- PROPERTY - access and modify the values of thefield
         public int Y { get; set; }
-        public Point() { currentID++; id = currentID; }
+        public Point()
+        {
+            currentID++; id = currentID; race = Race.Earthling; // or Marsian 
+        }
 
         public Point(int x, int y)
         {
