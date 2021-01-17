@@ -28,16 +28,21 @@ class Program
          */
 
         // Create object
-        Point point = new Point(5,10); // new object of data type Point
-        Console.WriteLine(point.x);
-        Console.WriteLine(point.y);
+        //Point point = new Point(5,10); // new object of data type Point
+        //Console.WriteLine(point.X);
+        //Console.WriteLine(point.Y);
 
         Point pointTwo = new Point();
-        pointTwo.x = 5; // giving some value to the property
-        pointTwo.y = 8;
+        pointTwo.X = 5; // giving some value to the property
+        pointTwo.Y = 8;
 
-        Console.WriteLine(pointTwo.x);
-        Console.WriteLine(pointTwo.y);
+        Console.WriteLine(pointTwo.X);
+        Console.WriteLine(pointTwo.Y);
+
+        Point newPoint = new Point();
+
+        newPoint.Username = "abud";
+        newPoint.Password = 5;
 
     }
 }

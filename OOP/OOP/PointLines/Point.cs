@@ -11,10 +11,25 @@ namespace PointLines // the name of the folder
 
     class Point
     {
-        public int x;
-        public int y;
-        public int z;
+        private int x; // -- FIELD -- accessable only inside the class
+        private int y;
+        private int z;
 
+
+        //public int X
+        //{
+        //    get
+        //    {
+        //        return x;
+        //    }
+        //    set
+        //    {
+        //        x = value;
+        //    }
+        //}
+
+        public int X { get; set; } // Getter and setter -- PROPERTY - access and modify the values of thefield
+        public int Y { get; set; }
         public Point() { }
 
         public Point(int x, int y)
@@ -23,6 +38,39 @@ namespace PointLines // the name of the folder
             this.x = x;
             this.y = y;
             this.z = 5; // this keyword is optional here
+        }
+
+        private string username;
+        private int password;
+
+        public string Username
+        {
+            get
+            {
+                return username;
+            }
+            set
+            {
+                if(value.Length >= 4 && value.Length <= 10)
+                    username = value;
+                else
+                    Console.WriteLine("Invalid");
+            }
+        }
+
+        public int Password
+        {
+            get
+            {
+                return password;
+            }
+            set
+            {
+                if (value >= 4 && value <= 10)
+                    password = value;
+                else
+                    Console.WriteLine("Invalid password");
+            }
         }
     }
 }
