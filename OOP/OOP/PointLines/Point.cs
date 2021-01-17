@@ -15,6 +15,8 @@ namespace PointLines // the name of the folder
         private int y;
         private int z;
 
+        // STATIC - does not need an instance - can be accessed without creating a new instance / object of the class
+        public static int ID;
 
         //public int X
         //{
@@ -30,7 +32,7 @@ namespace PointLines // the name of the folder
 
         public int X { get; set; } // Getter and setter -- PROPERTY - access and modify the values of thefield
         public int Y { get; set; }
-        public Point() { }
+        public Point() { ID++; }
 
         public Point(int x, int y)
         {
@@ -38,6 +40,8 @@ namespace PointLines // the name of the folder
             this.x = x;
             this.y = y;
             this.z = 5; // this keyword is optional here
+
+            ID++;
         }
 
         private string username;

@@ -46,5 +46,10 @@ class Program
 
         //Console.WriteLine(newPoint.Password); // ERROR - WRITE-ONLY (SET)
 
+        // access static
+
+        //Point.ID = 11;
+        Console.WriteLine(Point.ID);
+
     }
 }
