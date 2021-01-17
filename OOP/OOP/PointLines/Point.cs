@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP;
+using System;
 
 namespace PointLines // the name of the folder
 {
@@ -89,6 +90,11 @@ namespace PointLines // the name of the folder
                 else
                     Console.WriteLine("Invalid password");
             }
+        }
+
+        public void SayMyName()
+        {
+            Utilities.ColorfulWriteLine("ABU", ConsoleColor.Green);
         }
     }
 }

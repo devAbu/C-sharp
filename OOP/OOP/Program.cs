@@ -1,4 +1,5 @@
 ﻿using System;
+using OOP;
 using PointLines; // the name space
 
 class Program
@@ -55,5 +56,11 @@ class Program
 
         // ENUM
         Console.WriteLine(newPoint.race);
+
+        // STATIC CLASS
+
+        Utilities.ColorfulWriteLine("juhu huju", ConsoleColor.Red);
+
+        newPoint.SayMyName();
     }
 }
