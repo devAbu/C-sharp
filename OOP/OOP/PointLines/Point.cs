@@ -16,7 +16,10 @@ namespace PointLines // the name of the folder
         private int z;
 
         // STATIC - does not need an instance - can be accessed without creating a new instance / object of the class
-        public static int ID;
+        public static int currentID;
+
+        public const int id = 12; // CONST - hardcoded value -- ID
+        //public readonly int id; //  READ-ONLY - value assigned at runtime through code logic
 
         //public int X
         //{
@@ -32,7 +35,7 @@ namespace PointLines // the name of the folder
 
         public int X { get; set; } // Getter and setter -- PROPERTY - access and modify the values of thefield
         public int Y { get; set; }
-        public Point() { ID++; }
+        public Point() { currentID++; id = currentID; }
 
         public Point(int x, int y)
         {
@@ -41,7 +44,8 @@ namespace PointLines // the name of the folder
             this.y = y;
             this.z = 5; // this keyword is optional here
 
-            ID++;
+            currentID++;
+            id = currentID;
         }
 
         private string username;

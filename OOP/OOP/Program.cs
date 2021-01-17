@@ -49,7 +49,8 @@ class Program
         // access static
 
         //Point.ID = 11;
-        Console.WriteLine(Point.ID);
+        Console.WriteLine(Point.currentID);
 
+        //newPoint.id = 100; // ERROR - READONLY
     }
 }
