@@ -1,0 +1,43 @@
+﻿OOP concepts:
+	- Abstraction
+	- Encapsulation
+	- Inheritance
+	- Polymorphism
+
+*** Abstraction ***
+
+- A mechanism to provide the details about essential features without decribing the background details
+
+*** Encapsulation ***
+
+- A mechanism of binding the object state (fields) and behavior (methods) together into a single unit
+- Mainly achieved by creating classes
+	- The class is a kind of a container or capsule, which encapsulate the set of fields and methods
+
+*** Inheritance ***
+
+- A mechanism of acquiring the features and behaviors of a class by another class
+- The class whose members are inherited is called the base class, and the class that inherits thos members is called the derived class
+
+*** Polymorphism ***
+
+- Ability of an object to behave in multiple ways
+
+- Two types:
+	- Static (method overloading & operator overloading)
+	- Dynamic (method overriding)
+
+
+*** CLASS ***
+
+- A user defined data structure that contains data members (fields, properties) and member functions (method, constructor, destructor)
+- It is a reference type and acts as a template for an object
+
+*** OBJECT ***
+
+- A representative of the class and allocates memory to its class member (fields)
+
+
+
+
+
