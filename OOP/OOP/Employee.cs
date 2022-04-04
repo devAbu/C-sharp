@@ -10,7 +10,12 @@ namespace OOP
     {
         public double Salary;
 
-        public virtual double CalculateSalary()
+        //public virtual double CalculateSalary()
+        //{
+        //    return Salary;
+        //}
+
+        public double CalculateSalary()
         {
             return Salary;
         }

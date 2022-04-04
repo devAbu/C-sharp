@@ -130,3 +130,9 @@
 		- Change the behavior of an existing method in the base class
 		- Unlike method overloading, here methods must have same access modifiers
 		- An example of run time polymorphism since actual method calling is resolved at runtime
+
+*** METHOD HIDING
+
+	- A way to hide a method of base class into derived class using new keyword
+	- Unlike method overriding, the base class method you don't need to declare as virtual
+	- Unlike method overriding, the actual method calling is resolved at compile time

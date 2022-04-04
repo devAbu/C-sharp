@@ -10,7 +10,12 @@ namespace OOP
     {
         public double SalesBonus;
 
-        public override double CalculateSalary()
+        //public override double CalculateSalary()
+        //{
+        //    return Salary + SalesBonus;
+        //}
+
+        public new double CalculateSalary()
         {
             return Salary + SalesBonus;
         }
