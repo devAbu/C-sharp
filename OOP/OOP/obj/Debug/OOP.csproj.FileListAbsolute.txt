@@ -5,3 +5,11 @@ E:\Desktop\c#\OOP\OOP\obj\Debug\OOP.csprojAssemblyReference.cache
 E:\Desktop\c#\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
 E:\Desktop\c#\OOP\OOP\obj\Debug\OOP.exe
 E:\Desktop\c#\OOP\OOP\obj\Debug\OOP.pdb
+D:\c#\OOP\OOP\bin\Debug\OOP.exe.config
+D:\c#\OOP\OOP\bin\Debug\OOP.exe
+D:\c#\OOP\OOP\bin\Debug\OOP.pdb
+D:\c#\OOP\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
+D:\c#\OOP\OOP\obj\Debug\OOP.csproj.SuggestedBindingRedirects.cache
+D:\c#\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+D:\c#\OOP\OOP\obj\Debug\OOP.exe
+D:\c#\OOP\OOP\obj\Debug\OOP.pdb

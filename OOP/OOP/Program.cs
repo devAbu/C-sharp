@@ -62,5 +62,14 @@ class Program
         Utilities.ColorfulWriteLine("juhu huju", ConsoleColor.Red);
 
         newPoint.SayMyName();
+
+
+        // Tut #2
+        Student st = new Student();
+        st.StudentID = 1;
+        st.Name = "Abu";
+        st.Address = "Dobrinja";
+
+        st.ShowDetails();
     }
 }
