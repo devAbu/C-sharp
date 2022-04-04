@@ -99,5 +99,14 @@ class Program
 
         double salesSalary = salesEmployee.CalculateSalary();
         Console.WriteLine(salesSalary);
+
+        //method hiding
+        SalesEmployee salesEmployee2 = new SalesEmployee();
+        salesEmployee2.Salary = 1200;
+        salesEmployee2.SalesBonus = 500;
+
+        double salesSalary2 = salesEmployee2.CalculateSalary();
+        Console.WriteLine(salesSalary2);
+
     }
 }
