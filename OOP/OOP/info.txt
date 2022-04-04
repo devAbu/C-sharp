@@ -51,3 +51,33 @@
 		- Public
 
 		- Check "access modifiers members accessibility" image
+
+*** CONSTRUCTOR
+
+	- A special type of function / method which has the same name as its class
+	- Invoked automatically whenever an object of a class is created
+	- Responsible for object initialization and memory allocation of its class members
+	- Doesn't have a return a type, not even void type
+	Supports overloading
+
+	- TYPES:
+		- Default
+			- Has no parameters
+			- When a class has no contructor, default construtor is served by the compiler to that class
+			- Used to assign default values to instance variables of class
+
+		- Parameterized
+			- Has one or more parameters
+			- Used to assign values to instance variables of class
+
+		- Static
+			- A special type of constructor that gets called before the first object of the class is created
+			- Used to initialize any static field, or to perform a particular action that need to perform only once
+			- Execute only once
+			- A class can have only one static constructor and it must be a default constructor, having no access modifier
+
+		- Private
+			- Restrict a class external instantiation but in nested class you can create instance of this class
+			- Used to implement singleton pattern i.e. a single instance for a class
+			- Similar to static
+			- A class can have multiple private constructors and public constructors

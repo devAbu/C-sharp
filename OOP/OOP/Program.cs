@@ -65,11 +65,15 @@ class Program
 
 
         // Tut #2
-        Student st = new Student();
-        st.StudentID = 1;
-        st.Name = "Abu";
-        st.Address = "Dobrinja";
+        //Student st = new Student();
+        //st.StudentID = 1;
+        //st.Name = "Abu";
+        //st.Address = "Dobrinja";
 
-        st.ShowDetails();
+        //st.ShowDetails();
+
+        //extyernal instance
+        // Student st = new Student(); --> ERROR
+        Console.WriteLine("Counter: {0}", Student.GetCounter());
     }
 }
