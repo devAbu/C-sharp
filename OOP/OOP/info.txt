@@ -88,3 +88,29 @@
 	- Used to release unmanaged resources allocated by the object
 	- Automatically called before an object is destoryed and cannot be called explictly
 	- A class can have only one desctructor
+
+
+*** INHERITANCE ***
+
+	- ADVANTAGES OF INHERITANCE:
+		- Reduce code redundancy
+		- Improves code reusability
+		- Code is easy to manage and divided into parent & child classes
+		- Supports code extensibility by overriding the base class functionality within derived classes
+
+	- Types:
+		- Single Level
+			- A derived class is created from a sinlge base class
+
+		- Multi-level
+			- A derived class is created from another derived class
+
+		- Hierarchial
+			- more than one derived classes are created from a single base
+
+		- Multiple - C# doesn't support
+			- A derived class is created from more than one base class
+
+		- Hybrid - C# doesn't support
+			- This is combination of more than one inheritance
+			- Hence, it may be a combination of multilevel or multiple inheritance or hierarchical inheritance
