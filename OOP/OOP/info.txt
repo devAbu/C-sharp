@@ -38,6 +38,16 @@
 - A representative of the class and allocates memory to its class member (fields)
 
 
+*** ACCESS MODIFIERS
 
+	- Used to specify the accessibility of a member (field, method) or a type (class, interface)
+	- Support abstraction by exposing only necessary memebers and hiding other members
 
+	- Types:
+		- Private
+		- Protected
+		- Internal
+		- Protected Internal
+		- Public
 
+		- Check "access modifiers members accessibility" image
