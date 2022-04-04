@@ -81,3 +81,10 @@
 			- Used to implement singleton pattern i.e. a single instance for a class
 			- Similar to static
 			- A class can have multiple private constructors and public constructors
+
+*** DESTRUCTOR ***
+
+	- Special type method which has the same name as its class name preceded by a tilde (~) sign
+	- Used to release unmanaged resources allocated by the object
+	- Automatically called before an object is destoryed and cannot be called explictly
+	- A class can have only one desctructor

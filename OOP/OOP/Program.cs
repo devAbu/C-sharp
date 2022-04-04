@@ -75,5 +75,9 @@ class Program
         //extyernal instance
         // Student st = new Student(); --> ERROR
         Console.WriteLine("Counter: {0}", Student.GetCounter());
+
+
+        // desctructor
+        Example ex = new Example();
     }
 }
