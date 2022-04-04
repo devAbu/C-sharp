@@ -79,5 +79,25 @@ class Program
 
         // desctructor
         Example ex = new Example();
+
+        // overloading
+        Calculator calc = new Calculator();
+        Console.WriteLine(calc.Add(1, 2));
+        Console.WriteLine(calc.Add(3, 4, 5));
+        Console.WriteLine(calc.Add(4.2, 0.8));
+
+        // overriding
+        Employee employee = new Employee();
+        employee.Salary = 1200;
+
+        double salary = employee.CalculateSalary();
+        Console.WriteLine(salary);
+
+        SalesEmployee salesEmployee = new SalesEmployee();
+        salesEmployee.Salary = 1200;
+        salesEmployee.SalesBonus = 500;
+
+        double salesSalary = salesEmployee.CalculateSalary();
+        Console.WriteLine(salesSalary);
     }
 }

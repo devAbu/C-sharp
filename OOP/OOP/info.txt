@@ -114,3 +114,19 @@
 		- Hybrid - C# doesn't support
 			- This is combination of more than one inheritance
 			- Hence, it may be a combination of multilevel or multiple inheritance or hierarchical inheritance
+
+
+*** METHOD OVERLOADING & OVERRIDING
+
+	- OVERLOADING:
+		- In method overloading, a class has more than one method with same name but having different signature
+		- Adds or extends the behavior of an existing method
+		- Method signature includes number and type (i.e. theirs data types) of parameters
+		- Method signature does not include method return type and method access modifier
+		- An example of compile time polymorphism since actual method calling is resolved at compile time
+
+	- OVERRIDING:
+		- In method overriding, a derived class have the same methods with exatly the same signature as base class
+		- Change the behavior of an existing method in the base class
+		- Unlike method overloading, here methods must have same access modifiers
+		- An example of run time polymorphism since actual method calling is resolved at runtime
